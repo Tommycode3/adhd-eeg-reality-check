@@ -1,0 +1,13 @@
+{
+  "icc_median": 0.5067382030623451,
+  "icc_q25": 0.4403173492709752,
+  "icc_q75": 0.6004264043282268,
+  "icc_min": 0.2854648831653453,
+  "icc_max": 0.8113441783946244,
+  "mean_epochs_per_subject": 28.8099173553719,
+  "design_effect_at_median_icc": 15.09234754797348,
+  "n_epochs": 3486,
+  "effective_n_at_median_icc": 230.977983307049,
+  "icc_logTBR_Fz": 0.4764776785460575,
+  "icc_logTBR_Cz": 0.5615892682779137
+}

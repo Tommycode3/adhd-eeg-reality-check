@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, and cite the dataset."
+title: "ADHD EEG reality check: theta/beta ratio and data leakage audit"
+authors:
+  - family-names: Maggiolo
+    given-names: Tommaso
+version: 0.1.0
+date-released: 2026-10-30
+license: MIT
+repository-code: "https://github.com/Tommycode3/adhd-eeg-reality-check"
+keywords: [EEG, ADHD, theta-beta ratio, data leakage, cross-validation, reproducibility]
+references:
+  - type: dataset
+    title: "EEG data for ADHD / Control children"
+    authors:
+      - family-names: Motie Nasrabadi
+        given-names: Ali
+      - family-names: Allahverdy
+        given-names: Armin
+      - family-names: Samavati
+        given-names: Mehdi
+      - family-names: Mohammadi
+        given-names: Mohammad Reza
+    publisher:
+      name: IEEE DataPort
+    year: 2020
+    doi: 10.21227/rzfh-zn36
+    license: CC-BY-4.0

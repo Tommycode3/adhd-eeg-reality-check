@@ -1,0 +1,82 @@
+{
+  "dataset": "Nasrabadi et al. 2020, IEEE DataPort, doi:10.21227/rzfh-zn36, CC BY 4.0",
+  "n_subjects": 121,
+  "n_adhd": 61,
+  "recording_s_median": 130.4453125,
+  "recording_s_range": [
+    62.3671875,
+    337.90625
+  ],
+  "epochs_total": 4173,
+  "epochs_kept": 3486,
+  "channel_sanity": {
+    "top2_low_freq_0.5-3Hz_channels (expect Fp1,Fp2: blinks)": [
+      "Fp1",
+      "Fp2"
+    ],
+    "nearest_neighbour_by_correlation": {
+      "Fp1": "F3",
+      "Fp2": "F4",
+      "F3": "C3",
+      "F4": "C4",
+      "C3": "F3",
+      "C4": "Cz",
+      "P3": "C3",
+      "P4": "O2",
+      "O1": "P3",
+      "O2": "P4",
+      "F7": "Fp1",
+      "F8": "Fp2",
+      "T7": "C3",
+      "T8": "C4",
+      "P7": "P3",
+      "P8": "O2",
+      "Fz": "F3",
+      "Cz": "C4",
+      "Pz": "P3"
+    },
+    "alpha_rank_desc": [
+      "C3",
+      "Pz",
+      "P3",
+      "Cz",
+      "C4",
+      "O1",
+      "Fz",
+      "P4",
+      "O2",
+      "Fp1",
+      "Fp2",
+      "F4",
+      "F3",
+      "F7",
+      "T7",
+      "F8",
+      "T8",
+      "P7",
+      "P8"
+    ]
+  },
+  "recording_length_by_group": {
+    "duration_s": {
+      "median_adhd": 143.6640625,
+      "median_control": 122.1015625,
+      "g": 0.6364753090257578,
+      "g_ci95": [
+        0.30981560303855255,
+        0.9552119542009219
+      ],
+      "p_perm": 0.00019998000199980003
+    },
+    "epochs_kept": {
+      "median_adhd": 28.0,
+      "median_control": 26.5,
+      "g": 0.5319588416328168,
+      "g_ci95": [
+        0.19550619032451524,
+        0.8466573483660423
+      ],
+      "p_perm": 0.0025997400259974
+    }
+  }
+}

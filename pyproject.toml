@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adhd-eeg-audit"
+version = "0.1.0"
+description = "Reproducible audit of the EEG theta/beta ratio and of data leakage in ADHD EEG classification."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Tommaso Maggiolo" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "scikit-learn>=1.4", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
