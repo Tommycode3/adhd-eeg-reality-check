@@ -53,7 +53,7 @@ Something else does differ. 56 of 95 channel × band relative-power features dif
 | Random forest | 0.856 ± 0.003 | 0.909 | 0.631 ± 0.009 | 0.647 | 0.838 |
 | 5-NN | 0.902 ± 0.006 | 0.970 | 0.632 ± 0.002 | 0.671 | 0.876 |
 
-The last column reassigns labels between children (10 permutations), so they carry no diagnostic information, and epoch-level CV still reports 71–88%. That's identity leakage. Asked which of the 121 children produced a 4-s epoch, logistic regression gets 95.6% top-1 (chance 0.83%). The honest number is above chance: for logistic regression under subject-level CV, 200 between-child shuffles give a null mean of 0.505 and 95th percentile 0.559, against an observed 0.588 ($p = 0.010$). Given the confounds above I can't say how much of that is ADHD. TBR alone scores 0.52.
+The last column reassigns labels between children (10 permutations), so they carry no diagnostic information, and epoch-level CV still reports 71–88%. That's identity leakage. Asked which of the 121 children produced a 4-s epoch, logistic regression gets 95.6% top-1 (chance 0.83%). The subject-level number is above chance: for logistic regression under subject-level CV, 200 between-child shuffles give a null mean of 0.505 and 95th percentile 0.559, against an observed 0.588 ($p = 0.010$). Given the confounds above I can't say how much of that is ADHD. TBR alone scores 0.52.
 
 Write epoch $j$ of child $i$ as
 
