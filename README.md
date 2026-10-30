@@ -326,8 +326,6 @@ flowchart LR
 - **No hyperparameter tuning.** This is intentional: tuning with nested subject-level CV would not change the leakage conclusion.
   Absolute subject-level accuracies may move by a few points with tuning.
 
-## Why I built this
-
 <!-- TODO(Tommaso): dictate 3-4 lines in your own words -->
 
 ## References
